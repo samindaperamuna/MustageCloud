@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  web:
+    image: devillex/docker-firebase:latest
+    environment:
+      FIREBASE_TOKEN: <replace with your Firebase token from >'firebase login:ci' command>
+      PROJECT_ID: <replace with your project-id from Firebase>
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: ["./deploy.sh"]
