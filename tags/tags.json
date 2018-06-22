@@ -1,4 +1,5 @@
-[
-	{ "color": "red", "value": "Important" },
-	{ "color": "blue", "value": "Normal" }
-]
+{ "tags" : {
+	"-LFQe7vtUqxiOw38RDpu" : { "color": "red", "label": "Important", "info": "Test label."},
+	"-LFQeoKZYhubTR0T2ahy" : { "color": "blue", "label": "Low Priorty", "info": "Test label." },
+	"-LFQey2Xxeeu9m4wb2RB" : { "color": "green", "label": "Normal", "info": "Test label." }
+}}
